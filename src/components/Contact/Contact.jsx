@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
-import { deleteContact } from '../../redux/contactsSlice';
 import { FaUser } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa6';
+import { deleteContact } from '../../redux/operations';
 import css from './Contact.module.css';
 
 export default function Contact({ item }) {
@@ -9,6 +9,7 @@ export default function Contact({ item }) {
   const handleDelete = () => {
     dispatch(deleteContact(item.id));
   };
+
   return (
     <>
       <div>
