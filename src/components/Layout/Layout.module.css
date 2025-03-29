@@ -1,0 +1,23 @@
+.container {
+  padding: 20px;
+  background-image: var(--bg-color);
+}
+
+.wrap {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 42px;
+  color: var(--title-color);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
