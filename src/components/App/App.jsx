@@ -14,8 +14,6 @@ export default function App() {
   const error = useSelector(selectError);
 
   useEffect(() => {
-    console.log('fetch');
-
     dispatch(fetchContacts());
   }, [dispatch]);
 
